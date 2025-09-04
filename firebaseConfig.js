@@ -2,13 +2,13 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD_5xq2hYmyFpwlx6kWaFEC7jvpJcH4WTw",
-  authDomain: "lna-goal-tracker.firebaseapp.com",
-  projectId: "lna-goal-tracker",
-  storageBucket: "lna-goal-tracker.firebasestorage.app",
-  messagingSenderId: "763663207864",
-  appId: "1:763663207864:web:1e702c8c641a037711134d"
+  apiKey: "AIzaSyAnzGTcfYb7fOFFePkc11M7g6Ak9At5eQ0",
+  authDomain: "lna-goal-tracker-9a6ca.firebaseapp.com",
+  projectId: "lna-goal-tracker-9a6ca",
+  storageBucket: "lna-goal-tracker-9a6ca.firebasestorage.app",
+  messagingSenderId: "415334121339",
+  appId: "1:415334121339:web:b5971bf01886304401c7de"
 };
 
 const app = initializeApp(firebaseConfig);
-export const db = getFirestore(app);
+export const db = getFirestore(app); 
