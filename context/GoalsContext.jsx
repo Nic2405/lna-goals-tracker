@@ -12,7 +12,7 @@ export function GoalsProvider({ children }) {
  
   async function createGoal(goalData) {
     console.log(goalData)
-    await addDoc(collection(db, 'students'), goalData)
+    await addDoc(collection(db, 'student'), goalData)
   }
 
   async function deleteGoal() {
